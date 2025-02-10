@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tower of Hanoi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Tower of Hanoi</h1>
+    <h2>also known as lebaube CSA class torture simulator</h2>
+    <canvas id="canvas" width="768px" height="512px"></canvas>
+    <br>
+    <label>Drag from one peg to another to make a move.</label>
+    <br>
+    <button onclick="makeBestMove()">Make Best Move</button>
+    <br>
+    <input id="diskAmountInput" type="range" min="1" max="9", value="3"> <label for="diskAmountInput"><span id="diskAmountText">3</span> disks</label>
+    <br>
+    <button onclick="restartGame()">Start New Game</button>
+    <button onclick="randomRestartGame()">Start Game With Random Positions</button>
+    <br>
+
+    <script src="script.js"></script>
+</body>
+</html>
